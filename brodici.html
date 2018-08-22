@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>BattleShip</title>
+    <link rel="stylesheet" href="style/brodici.css">
+</head>
+<body>
+<div id="wrapper">
+
+    <header>
+        <h1>BattleShip</h1>
+    </header>
+
+    <div>
+        <form action="" id="start">
+            <input type="text" id="username" placeholder="Username" required><br>
+            <input type="submit" value="Start The Game">
+        </form>
+    </div>
+
+    <div id="table">
+        <div>
+            <h1 id="playerOne"></h1>
+            <div id="player1" class="platform"></div>
+            <button id="newRandom" class="positionBtns">New Random Position</button>
+            <button id="confirmPosition" class="positionBtns">Confirm Position</button>
+        </div>
+        <div>
+            <h1 id="playerTwo">Enemy</h1>
+            <div id="player2" class="platform"></div>
+        </div>
+    </div>
+
+</div>
+<script src="js/brodici.js"></script>
+<script src="js/tableSetup.js"></script>
+<script src="js/ajaxStorage.js"></script>
+</body>
+</html>
