@@ -1,3 +1,8 @@
+uncomplited (coming soon)
+demo -> https://zarkozivojnovic.github.io/BattleShip/
+
+
+
 - jedan igra pa sledeći igra ( ne može isti 2x zaredom), ako je pogodio može ponovo
 - kad ga potopiš treba da se prikaže da je potopljen (ako si pogodio 2 od 2), obeležava sva okolna polja
 - za svaki pokušaj treba da ti pokaže da li si pogodio
