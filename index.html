@@ -10,34 +10,35 @@
 </head>
 <body>
 <div id="wrapper">
-
     <header>
         <h1>BattleShip</h1>
     </header>
-
     <div>
         <form action="" id="start">
             <input type="text" id="username" placeholder="Username" required><br>
             <input type="submit" value="Start The Game">
         </form>
     </div>
-
     <div id="table">
+        <div id="notifications"></div>
         <div>
             <h1 id="playerOne"></h1>
-            <div id="player1" class="platform"></div>
+            <div id="player1" class="platform">
+            </div>
             <button id="newRandom" class="positionBtns">New Random Position</button>
             <button id="confirmPosition" class="positionBtns">Confirm Position</button>
+            <div class="black" id="black_1"></div>
         </div>
         <div>
             <h1 id="playerTwo">Enemy</h1>
-            <div id="player2" class="platform"></div>
+            <div id="player2" class="platform">
+            </div>
+            <div class="black" id="black_2"></div>
         </div>
     </div>
-
 </div>
 <script src="js/brodici.js"></script>
 <script src="js/tableSetup.js"></script>
-<script src="js/ajaxStorage.js"></script>
+<script src="js/hits.js"></script>
 </body>
 </html>

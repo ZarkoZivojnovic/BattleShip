@@ -78,3 +78,19 @@ td {
     border: solid gray 1px;
 }
 
+#table {
+    position: relative;
+}
+
+#notifications {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 5;
+}
+
