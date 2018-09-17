@@ -161,7 +161,7 @@ function drawOnPage(table, player) {
             if (table[row][cell] === labels.selectedShip) cellInRow.style.backgroundColor = "yellow";
             if (table[row][cell] === "hit") cellInRow.style.backgroundColor = "green";
             if (table[row][cell] === "close") cellInRow.style.backgroundColor = "gray";
-            if (table[row][cell] === "nothing") cellInRow.style.backgroundColor = "black";
+            if (table[row][cell] === "nothing") cellInRow.style.backgroundColor = "silver";
             if (table[row][cell] === "submerged") cellInRow.style.backgroundColor = "red";
             cellInRow.setAttribute("id", row + "_" + cell);
             rowInTable.appendChild(cellInRow);
