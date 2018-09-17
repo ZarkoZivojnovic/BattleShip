@@ -178,7 +178,7 @@ let tableSetup = {
 
     randomShipsPosition: function (table) {
         let myTable = createTable(),
-            shipsOnTable = [];
+            shipsOnTable = {};
 
         for (let ship = 0; ship < ships.length; ship++) {
             let direction = Math.floor(Math.random() * 2) === 0 ? "horizontal" : "vertical",
