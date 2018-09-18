@@ -94,3 +94,6 @@ td {
     z-index: 5;
 }
 
+#reset {
+    display:none;
+}
