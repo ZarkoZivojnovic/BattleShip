@@ -174,8 +174,7 @@ function firstMove() {
 }
 
 function myMove() {
-    if (moves.length < 1) return onMove === "player1";
-    return moves[moves.length - 1].player === "player1";
+    return onMove === "player1";
 }
 
 function allPossibleHits() {
